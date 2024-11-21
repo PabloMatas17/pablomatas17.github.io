@@ -1,11 +1,11 @@
 *{text-align: center;
     background-color: wheat;
-    margin: 50px;
-    padding: 50px;}
+    margin: 15px;
+    padding: 15px;}
 img{
     border-radius: 300px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 h1{
     border-bottom: 5pt solid grey;
