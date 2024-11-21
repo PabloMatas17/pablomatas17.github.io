@@ -1,0 +1,20 @@
+*{text-align: center;
+    background-color: wheat;
+    margin: 15px;}
+img{
+    border-radius: 300px;
+}
+h1{
+    border-bottom: 5pt solid grey;
+}
+h2,h3,h4,p,li{
+    text-align: left}
+h2{
+    border-bottom: 3pt solid gray;
+}
+button:hover{
+    background: none greenyellow;
+}
+i:hover{
+    background: none greenyellow;
+}
