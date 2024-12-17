@@ -3,45 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="css/css.css">
+    <meta name="author" content="Pablo Matas Sánchez">
+    <title>Pablo Matas - Portfolio</title>
+    <link rel="stylesheet" href="css.css">
     <script src="https://kit.fontawesome.com/e681abe5a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <img src="./imagenes/IMG_4905.jpg" alt="FOTO MIA">
-    <h1>Pablo Matas</h1>
-    <h2>Tecnico en Sistemas microinformaticos y redes
-        <i :hover class="fa-brands fa-instagram"></i>
-        <i :hover class="fa-brands fa-facebook"></i>
-        <i :hover class="fa-brands fa-whatsapp"></i>
-        <i :hover class="fa-brands fa-apple"></i>
-        <i :hover class="fa-brands fa-github"></i></h2>
-    
-    <p>Soy un joven motivado y con ganas de trabajar y aprender. Soy un chico persistente que si se propone algo lo cumple y no deja trabajos a mediohacer</p>
-    <button :hover>Contacteme</button>
-    <h2></h2>
-    <h2>Experiencia</h2>
-    <h3>Tecnico de taller</h3>
-    <h4>Silvania: marzo,2024-- mayo,2024</h4>
-    <p>He estado trabajando de practicas 3 meses y a sido una experiencia en la que aprendi mucho y me motivo a seguir. Alli estuve como tecnico enn el taller arreglando ordendores, servidores, sai y muchas cosas mas </p>
-    <h3>Habilidades</h3>
-    <ul>
-        <li>Persistente</li>
-        <li>Trabajador</li>
-        <li>Social</li>
-        <li>Inteligente</li>
-    </ul>
-    <h3>Estudios</h3>
-    <ul>
-        <li>Graduado en la ESO en el IES Manuel Cañadas</li>
-        <li>Actualmente haciendo el segundo año de sistemas microinformaticos y redes en el IES Alfaguara</li>
-    </ul>
-    <h3>Idiomas</h3>
-    <ul>
-        <li>Nivel basico ingles y frances</li>
-    </ul>
+    <header>
+        <img src="./imagenes/IMG_4905.jpg" alt="Foto de Pablo Matas" class="profile-image">
+        <h1>Pablo Matas</h1>
+        <h2>Técnico en Sistemas Microinformáticos y Redes</h2>
+        <div class="social-icons">
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" aria-label="Apple">
+                <i class="fa-brands fa-apple"></i>
+            </a>
+            <a href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Soy un joven motivado y con ganas de trabajar y aprender. Soy un chico persistente que si se propone algo lo cumple y no deja trabajos a medio hacer.</p>
+            <button onclick="location.href='mailto:pablo.matas@example.com'">Contáctame</button>
+        </section>
+
+        <section class="experience">
+            <h2>Experiencia</h2>
+            <article>
+                <h3>Técnico de taller</h3>
+                <h4>Silvania: marzo 2024 - mayo 2024</h4>
+                <p>He trabajado durante 3 meses como técnico en el taller, donde me encargué de la reparación de ordenadores, servidores, SAI y otros equipos electrónicos. Esta experiencia fue fundamental para mi desarrollo profesional.</p>
+            </article>
+        </section>
+
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Persistente</li>
+                <li>Trabajador</li>
+                <li>Social</li>
+                <li>Inteligente</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Estudios</h2>
+            <ul>
+                <li>Graduado en la ESO en el IES Manuel Cañadas</li>
+                <li>Actualmente en el segundo año de Sistemas Microinformáticos y Redes en el IES Alfaguara</li>
+            </ul>
+        </section>
+
+        <section class="languages">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Inglés y Francés (Nivel Básico)</li>
+            </ul>
+        </section>
+    </main>
+
     <footer>
-        &copy;Pablo Matas S&aacute;nchez 2024
+        <p>&copy; 2024 Pablo Matas Sánchez. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
